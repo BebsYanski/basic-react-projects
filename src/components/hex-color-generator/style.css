@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  background-color: #ead8b1;
+}
+section {
+  transition: background 0.8s;
+}
+.chosen {
+  background-color: hsl(41, 58%, 31%);
+  color: aliceblue;
+  font-size: 1.3rem;
+}
