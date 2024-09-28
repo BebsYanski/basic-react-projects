@@ -1,13 +1,9 @@
-import RandomColor from './components/hex-color-generator'
+import ImageSlider from './components/image-slider'
 
 import './App.css'
 
 function App() {
-  return (
-    <>
-      <RandomColor />
-    </>
-  )
+  return <ImageSlider url={'https://picsum.photos/v2/list'} limit={'10'} />
 }
 
 export default App
