@@ -1,9 +1,10 @@
-import ImageSlider from './components/image-slider'
+import TreeView from './components/side-menu'
+import menus from './components/side-menu/data'
 
 import './App.css'
 
 function App() {
-  return <ImageSlider url={'https://picsum.photos/v2/list'} limit={'10'} />
+  return <TreeView menus={menus} />
 }
 
 export default App
